@@ -20,20 +20,16 @@
   }
   
   h1 .expand-button {
-    background-color: #0074d9;
-    color: #fff;
+    background-color: transparent;
     border: none;
-    width: 24px;
-    height: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-size: 20px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    margin-right: 82%;
+    
   }
   
   h1 .expand-button:hover {
-    background-color: #0056b3;
+    background-color: #e64a19;;
   }
   
   .container {
@@ -67,6 +63,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    margin-right: 80%;
     transition: background-color 0.3s;
   }
   
@@ -107,3 +104,21 @@
     margin-top: 20px;
   }
   
+  .expand-button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px; /* Shift the button to the left */
+  }
+
+  /* Add this to your CSS to style the duplicate column input */
+.duplicate-column {
+  border: 1px solid red; /* Add a red border to indicate a duplicate */
+  background-color: #c40404; /* Change the background color to highlight it */
+  /* You can add more styles as needed */
+}
+
+.head-cent{
+  margin-left: 44.5%;
+}
